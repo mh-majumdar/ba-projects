@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <?php include 'submit_form.php'; ?>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+
+    <div class="row">
+
+        <div class="Heading col-12 p-5">
+            <img src="1.jpeg" class="img-fluid" alt="Responsive image">
+
+        </div>
+
+        <div class="Heading2 col-12 p-5">
+
+            <div class="header">
+
+                <button type="button" class="btn btn-secondary btn-lg btn-block"> REGISTRATION FORM FOR
+                    CONVOCATION-2024</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <div class="col-md-10 m-auto p-5">
+
+
+
+
+
+        <div class="card card-primary p-3">
+
+
+            <form action="submit_form.php" method="post">
+
+
+
+
+                <!-- Start---Personal information------------------------------  -->
+
+
+                <div class="formheader pb-3">
+                    <button type="button" class="btn btn-secondary">Personal Information</button>
+
+                </div>
+
+
+
+
+                <div class="form-group">
+
+                    <label for="Name">Name:</label>
+                    <input type="text" name="Name" placeholder="Your Name" class="form-control" required>
+
+                </div>
+
+
+                <div class="form-row">
+
+
+                    <div class="form-group col-md-6">
+
+                        <label for="FName">Father's Name:</label>
+                        <input type="text" name="FatherName" placeholder="Your Father's Name" class="form-control"
+                            required>
+
+                    </div>
+
+                    <div class="form-group col-md-6">
+
+                        <label for="MName">Mother's Name:</label>
+                        <input type="text" name="MotherName" placeholder="Your Mother's Name" class="form-control"
+                            required>
+
+                    </div>
+
+                </div>
+
+
+
+
+                <div class="form-row">
+
+
+                    <div class="form-group col-md-6">
+
+                        <label for="Birthday">Date of Birth:</label>
+                        <input type="date" name="Birthdate" placeholder="Your Date of Birth" class="form-control"
+                            required>
+
+                    </div>
+
+                    <div class="form-group col-md-6">
+
+                        <label for="Gender">Gender: </label>
+
+                        <select class="form-select" name="Gender">
+
+
+                            <option selected>Select Gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+                <hr>
+
+
+                <!-- Start--- Degreee Information------------------------------  -->
+
+
+
+                <div class="formheader pt-3 pb-3">
+                    <button type="button" class="btn btn-secondary">Degree Information</button>
+
+                </div>
+
+
+                <div class="formheader pb-2 ">
+                    <span class="text-primary"> 1) Undergraduate</span>
+
+                </div>
+
+
+
+                <div class="form-group">
+
+                    <label for="DName">Name of Degree:</label>
+                    <input type="text" name="DName" placeholder="Your Degree Name" class="form-control">
+
+                </div>
+
+
+                <div class="form-row">
+
+
+                    <div class="form-group col-md-4">
+
+                        <label for="ASName">Admission Session:</label>
+                        <input type="text" name="AdmissionSession" placeholder="Your Admission Session"
+                            class="form-control" required>
+
+                    </div>
+
+                    <div class="form-group col-md-4">
+
+                        <label for="ID">Reg/ID No:</label>
+                        <input type="text" name="RegistrationID" placeholder="ID No" class="form-control" required>
+
+                    </div>
+
+                    <div class="form-group col-md-4">
+
+                        <label for="BN">Batch:</label>
+                        <input type="text" name="Batch" placeholder="Batch No" class="form-control" required>
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-row">
+
+
+                    <div class="form-group col-md-4">
+                        <label for="PY">Year of Passing:</label>
+                        <input type="text" name="PY" placeholder="Your Passing Year" class="form-control">
+
+                    </div>
+
+                    <div class="form-group col-md-4">
+                        <label for="GS">Graduating Session:</label>
+                        <input type="text" name="GS" placeholder="Your Graduation Session" class="form-control">
+
+                    </div>
+
+                    <div class="form-group col-md-4">
+
+                        <label for="CG">CGPA:</label>
+                        <input type="text" name="CG" placeholder="Your CGPA" class="form-control">
+
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+                <!-- Graduate -------------------------->
+
+
+                <div class="formheader pb-2">
+                    <span class="text-primary">2) Graduate</span>
+
+                </div>
+
+
+
+                <div class="form-group">
+
+                    <label for="DName">Name of Degree:</label>
+                    <input type="text" name="DeName" placeholder="Your Degree Name" class="form-control">
+
+                </div>
+
+
+                <div class="form-row">
+
+
+                    <div class="form-group col-md-4">
+
+                        <label for="ASName">Admission Session:</label>
+                        <input type="text" name="ASeName" placeholder="Your Admission Session" class="form-control">
+
+                    </div>
+
+                    <div class="form-group col-md-4">
+
+                        <label for="ID">Reg/ID No:</label>
+                        <input type="text" name="IDe" placeholder="ID No" class="form-control">
+
+                    </div>
+
+                    <div class="form-group col-md-4">
+
+                        <label for="BN">Batch:</label>
+                        <input type="text" name="BNe" placeholder="Batch No" class="form-control">
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-row">
+
+
+                    <div class="form-group col-md-4">
+                        <label for="PY">Year of Passing:</label>
+                        <input type="text" name="PYN" placeholder="Your Passing Year" class="form-control">
+
+                    </div>
+
+                    <div class="form-group col-md-4">
+                        <label for="GS">Graduating Session:</label>
+                        <input type="text" name="GSN" placeholder="Your Graduation Session" class="form-control">
+
+                    </div>
+
+                    <div class="form-group col-md-4">
+
+                        <label for="CG">CGPA:</label>
+                        <input type="text" name="CGA" placeholder="Your CGPA" class="form-control">
+
+                    </div>
+
+                </div>
+
+
+
+
+
+
+                <hr>
+
+
+                <!-- Contanct Information------------------------->
+
+
+
+                <div class="formheader pt-3 pb-3">
+                    <button type="button" class="btn btn-secondary">Contact Information</button>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="PAd">Permanent Address:</label>
+                    <input type="text" name="PAd" placeholder="Your Permanent Address" class="form-control">
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="PrAd">Present Address:</label>
+                    <input type="text" name="Address" placeholder="Your Present Address" class="form-control" required>
+
+                </div>
+
+
+
+                <div class="form-row">
+
+
+                    <div class="form-group col-md-6">
+
+                        <label for="MNo">Mobile No:</label>
+                        <input type="text" name="MobileNo" placeholder="Your Mobile No" class="form-control" required>
+
+                    </div>
+
+                    <div class="form-group col-md-6">
+
+                        <label for="Email">E-mail:</label>
+                        <input type="text" name="Email" placeholder="Your Email" class="form-control" required>
+
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+
+
+                <hr>
+
+
+                <!-- Graduate's Present Status------------------------->
+
+
+
+
+                <div class="formheader pt-3 pb-3">
+                    <button type="button" class="btn btn-secondary">Graduate's Present Status</button>
+
+                </div>
+
+
+
+                <div class="form-row">
+
+
+                    <div class="form-group col-md-6">
+
+                        <label for="Em">Employer:</label>
+                        <input type="text" name="Em" placeholder="Your current Status" class="form-control">
+
+                    </div>
+
+                    <div class="form-group col-md-6">
+
+
+                        <label for="Des">Designation:</label>
+                        <input type="text" name="Des" placeholder="Your Designation" class="form-control">
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="form-group">
+
+                    <label for="OAd">Official Address:</label>
+                    <input type="text" name="OAd" placeholder="Your Official Address" class="form-control">
+
+                </div>
+
+
+
+
+                <hr>
+
+
+
+
+                <!-- Payment information------------------------->
+
+
+
+                <div class="formheader pt-3 pb-3">
+                    <button type="button" class="btn btn-secondary">Payment Information</button>
+
+                </div>
+
+
+                <div class="row m-2">
+                    <span> Convocation Fee: Tk. 5,000 (For Registration)</span>
+
+
+                </div>
+                <div class="row m-2">
+
+                    <span> Orginal Certificate Fee (For undergraduate program): Tk. 1,500</span>
+
+
+                </div>
+                <div class="row m-2">
+
+                    <span> Orginal Certificate Fee (For graduate program): Tk. 1,500</span>
+
+                </div>
+
+                <div class="row m-2">
+
+                    <span class="text-bold"> Note: In case of two degrees registration Fee will have to be paid once
+                        only</span>
+
+                </div>
+
+                <!-- /.card-header -->
+                <!-- form start -->
+
+
+
+                <hr>
+
+
+
+                <!-- Payment Procedure------------------------->
+
+
+                <div class="formheader pt-3 pb-3">
+                    <button type="button" class="btn btn-secondary">Payment Procedure</button>
+
+                </div>
+
+
+                <div class="row m-2">
+                    <span> Pay fee to the following bank account:</span>
+
+
+                </div>
+                <div class="row m-2">
+
+                    <span> Name of Bank: United Commercial Bank Limited</span>
+
+
+                </div>
+                <div class="row m-2">
+
+                    <span> Account Title: BGC TRUST UNIVERSITY BANGLADESH</span>
+
+                </div>
+
+                <div class="row m-2">
+
+                    <span>Account Number: 0581301000000010</span>
+
+                </div>
+
+                <div class="row m-2">
+
+                    <span class="text-bold"> Note: Money can be deposited online from any branch.</span>
+
+                </div>
+
+
+
+                <hr>
+
+
+
+                <div class="row m-2">
+                    <span> Or Pay fee with bKash App using following Steps:</span>
+
+
+                </div>
+                <div class="row m-2">
+
+                    <span>Tap "Make Payment" Icon Enter Mobile Number : 01755588618</span>
+
+
+                </div>
+
+                <div class="row m-2">
+
+                    <span> Enter Amount: 6500/8000, Enter Reference: Reg/ID(Graduate or undergraduate any one)</span>
+
+                </div>
+
+                <div class="row m-2">
+
+                    <span>Enter your bKash PIN, Tap and hold to payment</span>
+
+                </div>
+
+                <div class="row m-2">
+
+                    <span> Take a Screenshot of digital bill receipt.</span>
+
+                </div>
+
+
+
+
+
+
+
+
+
+                <hr>
+                <!-- Fees Paid------------------------->
+
+
+
+                <div class="formheader pt-3 pb-3">
+                    <button type="button" class="btn btn-secondary">Fees Paid</button>
+
+                </div>
+
+
+                <div class="form-row">
+
+
+                    <div class="form-group col-md-4">
+
+                        <label for="TK">Total Amount of Paid TK:</label>
+                        <input type="text" name="Amount" placeholder="Amount of Tk" class="form-control" required>
+
+                    </div>
+
+                    <div class="form-group col-md-4">
+
+                        <label for="Bank">Deposited Bank Name/Bkash:</label>
+                        <input type="text" name="BankName" placeholder="Bank Name" class="form-control" required>
+
+                    </div>
+
+                    <div class="form-group col-md-4">
+
+                        <label for="Branch">Branch:</label>
+                        <input type="text" name="Branch" placeholder="Branch " class="form-control">
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="form-row">
+
+
+                    <div class="form-group col-md-6">
+
+                        <label for="TID">Bank Receipt No / BKash Transaction ID:</label>
+                        <input type="text" name="TransactionID" placeholder="Transaction ID" class="form-control"
+                            required>
+
+                    </div>
+
+
+
+                    <div class="form-group col-md-6">
+
+                        <label for="PDate">Payment Date:</label>
+                        <input type="date" name="PDate" placeholder="Payment Date" class="form-control">
+
+                    </div>
+
+                </div>
+
+
+
+
+
+                <hr>
+
+
+
+                <!-- Upload Document------------------------->
+
+
+                <div class="formheader pt-3 pb-3">
+                    <button type="button" class="btn btn-secondary">Upload Document</button>
+
+                </div>
+
+
+                <div class="form-group">
+                    <label for="exampleInputFile">Passport sized photograph </label>
+                    <div class="input-group">
+                        <div class="custom-file">
+                            <input type="file" name="PIC" class="custom-file-input" id="exampleInputFile">
+                            <label class="custom-file-label" for="exampleInputFile">Choose file</label>
+                        </div>
+                        <div class="input-group-append">
+                            <span class="input-group-text">Upload</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleInputFile">Copy of Bank Receipt/Screenshot of bKash digital bill receipt </label>
+                    <div class="input-group">
+                        <div class="custom-file">
+                            <input type="file" name="BRFile" class="custom-file-input" id="exampleInputFile">
+                            <label class="custom-file-label" for="exampleInputFile">Choose file</label>
+                        </div>
+                        <div class="input-group-append">
+                            <span class="input-group-text">Upload</span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="row m-3">
+
+                    <span class="text-bold"> Note: Application will be rejected, if incorrect information added or
+                        Incomplete
+                        application submitted.</span>
+
+                </div>
+
+
+
+                <div class="text-center pt-3 pb-2">
+                    <button type="submit" class="btn btn-primary">Submit Now</button>
+                </div>
+
+            </form>
+
+            <!-- /.content -->
+        </div>
+
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>
