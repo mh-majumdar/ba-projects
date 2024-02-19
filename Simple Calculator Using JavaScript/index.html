@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator by JS</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <div class="calculator-head">
+        <h2>Arithmetic Operation In Form</h2>
+    </div>
+
+    <div class="calculator">
+        <h3>Arithmetic Operation</h3>
+        <form id="calculator-form">
+            <label for="number1">Enter First No:</label>
+            <input type="number" id="number1" name="number1" placeholder="Enter First Number" required> <br>
+
+            <label for="number2">Enter Second No:</label>
+            <input type="number" id="number2" name="number2" placeholder="Enter Second Number" required>
+
+            <label for="result">Result:</label>
+            <input type="text" id="result" name="result" readonly>
+
+            <div class="buttons">
+                <button type="button" class="f-but" onclick="add()">ADD</button>
+                <button type="button" class="f-but" onclick="subtract()">SUBTRACT</button>
+                <button type="button" class="f-but" onclick="multiply()">MULTIPLY</button>
+                <button type="button" class="f-but" onclick="divide()">DIVIDE</button>
+            </div>
+
+            <div class="reset">
+                <button type="button" class="btn btn-primary" onclick="reset()">RESET</button>
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
