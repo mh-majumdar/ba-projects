@@ -1,0 +1,55 @@
+.headline{
+    background-color: #133267;
+    color: white;
+    text-align: center;
+}
+
+.d-tabel{
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    height: 65vh;
+    width:auto;
+    margin: 0 3rem;
+   
+}
+
+
+#data-table {
+    margin: 0 auto; 
+    border-collapse: collapse;
+}
+
+#data-table th,
+#data-table td {
+    padding: 8px;
+    border: 1px solid black; 
+    background-color: green;
+    color: antiquewhite;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+#data-table {
+    border-collapse: collapse; 
+}
+
+.btn{
+    background-color: #eaff00;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.submit{
+margin-top: 1rem;
+}
+
+.bt{
+    background-color: #133267;
+    color: antiquewhite;
+    font-size: 20px;
+    font-weight: 600;
+}
